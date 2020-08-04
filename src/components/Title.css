@@ -1,0 +1,33 @@
+.title {
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.title__paragraph {
+   margin-bottom: 3rem;
+   font-size: 2rem;
+   color: var(--color-primary);
+}
+
+.title__heading {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 1100px){
+  .title__paragraph {
+    font-size: 3rem;
+  }
+  .title__heading  {
+    font-size: 4rem;
+  }
+}
+
+
+@media(max-width: 880px){
+  .title__paragraph {
+    margin-left: 2rem;
+  }
+ 
+ }
